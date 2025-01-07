@@ -1,0 +1,174 @@
+baseURL = "https://www.vipyr.nl"
+languageCode = "en"
+theme = "adritian-free-hugo-theme"
+
+[params]
+
+  title = 'Vipyr - by Vito Minheere'
+  description = 'Vipyr business.'
+  images = ['/img/og-img.png']
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  homepageExperienceCount = 6
+
+  [params.analytics]
+  ## Analytics parameters.
+  ### Supported so far: Vercel (Page Insights, Analytics)
+  ### And Google (Tag Manager, Analytics)
+
+  # controls vercel page insights - disabled by default
+  # to enable, just set to true
+  vercelPageInsights = false
+  vercelAnalytics = false
+  
+  # google analytics and tag manager. to enable, set "enabled" to true
+  # and add the tracking code (UA-something for analytics, GTM-something for tag manager)
+  # [params.analytics.googleAnalytics]
+  #     code = "UA-XXXXX-Y"
+  #     enabled = false
+  # [params.analytics.googleTagManager]
+  #     code = "GTM-XXXXX"
+  #     enabled = false
+
+[build]
+  [build.buildStats]
+    disableClasses = false
+    disableIDs = false
+    disableTags = false
+    enable = true
+
+[params.languages.selector.disable]
+  footer = false
+
+[languages]
+  [languages.en]
+    disabled = false
+    languageCode = 'en'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = ''
+    weight = 0
+
+    [languages.en.menus]
+      [[languages.en.menus.header]]
+        name = 'About'
+        URL = '#about'
+        weight = 2
+
+      [[languages.en.menus.header]]
+        name = "Experience"
+        URL = "#experience"
+        weight = 4
+
+      [[languages.en.menus.header]]
+        name = "Blog"
+        URL = "/blog"
+        weight = 5
+
+      [[languages.en.menus.header]]
+        name = "Contact"
+        URL = "#contact"
+        weight = 6
+
+      [[languages.en.menus.footer]]
+        name = "About"
+        URL = "#about"
+        weight = 2
+
+      [[languages.en.menus.footer]]
+        name = "Experience"
+        URL = "#experience"
+        weight = 3
+
+      [[languages.en.menus.footer]]
+        name = "Contact"
+        URL = "#contact"
+        weight = 4
+
+
+  [languages.nl]
+    disabled = false
+    languageCode = 'nl'
+    languageDirection = 'ltr'
+    languageName = 'Nederlands'
+    title = ''
+    weight = 0
+      [[languages.nl.menus.header]]
+        name = 'Over'
+        URL = '/nl/#about'
+        weight = 2
+
+      [[languages.nl.menus.header]]
+        name = "Ervaring"
+        URL = "/nl/#experience"
+        weight = 4
+
+      [[languages.nl.menus.header]]
+        name = "Blog"
+        URL = "/nl/blog"
+        weight = 5
+
+      [[languages.nl.menus.header]]
+        name = "Contact"
+        URL = "/nl/#contact"
+        weight = 6
+
+      [[languages.nl.menus.footer]]
+        name = "Over"
+        URL = "/nl/#about"
+        weight = 2
+
+      [[languages.nl.menus.footer]]
+        name = "Ervaring"
+        URL = "/nl/#experience"
+        weight = 4
+
+      [[languages.nl.menus.footer]]
+        name = "Blog"
+        URL = "/nl/#blog"
+        weight = 5
+
+      [[languages.nl.menus.footer]]
+        name = "Contact"
+        URL = "/nl/#contact"
+        weight = 6
+
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+  [[params.plugins.css]]
+  URL = "css/adritian-icons.css"
+  
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+  # SCSS Plugins
+  [[params.plugins.scss]]
+  URL = "scss/adritian.scss"
+
+
+# theme/color style 
+[params.colorTheme]
+
+## the following configuration would disable automatic theme selection
+#  [params.colorTheme.auto]
+#    disable = true
+#  [params.colorTheme.forced]
+#    theme = "dark"
+
+## the following parameter will disable theme override in the footer
+#  [params.colorTheme.selector.disable]
+#  footer = true
+
+
+## by default we allow override AND automatic selection
+
