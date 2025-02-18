@@ -12,10 +12,10 @@
 
 ## Header
 - id: "logo_text1"
-  translation: "Adritian"
+  translation: "Vipyr"
 
 - id: "logo_text2"
-  translation: "Demo"
+  translation: ""
 
 ## Footer
 - id: "footer_notice"
@@ -36,20 +36,20 @@
 
 ## Homepage head title
 - id: "head_title"
-  translation: "Demo site for Adritian - a high performance hugo theme by Adrián Moreno"
+  translation: "Vipyr"
 
 - id: "head_description"
   translation: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
 
 ## Homepage showcase
 - id: "showcase_title"
-  translation: "Welcome the demo"
+  translation: "Efficiency that strikes"
 
 - id: "showcase_subtitle"
-  translation: "Let's dive into an example"
+  translation: "Cloud | Kubernetes | Python"
 
 - id: "showcase_description"
-  translation: "This is a high performance theme for the Hugo static site generator. This sample content can be edited in the locale files (as the theme supports translations). <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href='https://adritian-demo.vercel.app/'>as a demo site</a> or <a target='_blank' href='https://www.adrianmoreno.info'>a real one</a>.<br>You can find this content to edit in the theme.yaml file."
+  translation: "Freelance CLoud & Software development diensten"
 
 - id: "showcase_button"
   translation: "Contact"
@@ -60,43 +60,36 @@
 
 ## Homepage about
 - id: "about_title"
-  translation: "Who am I?"
+  translation: "Wie ben ik?"
 
 - id: "about_content"
   translation:  <p class="lead">
-      Here you can add some information about you. A small excerpt that describes 
-      your experience, for example.   
-      </p>
-      <p class="lead">
-      You explain something about your academic/study background, as well as your
-      preferred areas of work. Think of this area as context-setting for the experience
-      that you will describe below. Why did you change jobs? What drove you to take a 
-      new gig? Even if you are not looking for a job, it's a good way to hint about
-      what kind of projects you are interested in.
+    Als Cloud Platform Engineer ben ik ...
+      
     </p>
 
 - id: "about_button"
-  translation: "About Me"
+  translation: "Over Mij"
 
 ## Homepage education
 - id: "education_title"
-  translation: "Education"
+  translation: "Opleidingen"
 
 ## Homepage experience
 - id: "experience_title"
-  translation: "Experience"
+  translation: "Ervaring"
 
 - id: "experience_description"
-  translation: "This is where you can highlight a bit over your experience. Years of total experience, specialization, etc."
+  translation: "Dit zijn enkele van de projecten waaraan ik heb gewerkt."
 
 - id: "experience_button"
   translation: "LinkedIn" 
 
 - id: "experience_button_url"
-  translation: "https://www.linkedin.com/in/adrianmoreno/"
+  translation: "https://www.linkedin.com/in/VitoMinheere/"
 
 - id: "experience_button2"
-  translation: "Download resume"
+  translation: "Download CV"
 
 - id: "experience_button2_url"
   translation: "/img/general/user-smile-fill.svg"
@@ -113,22 +106,22 @@
 
 ## Homepage newsletter
 - id: "newsletter_title"
-  translation: "Newsletter"
+  translation: "Nieuwsbrief"
 
 - id: "newsletter_button"
-  translation: "Subscribe"
+  translation: "Abonneer"
 
 - id: "newsletter_placeholder"
-  translation: "Your email"
+  translation: "Jouw email"
 
 - id: "newsletter_success_message"
-  translation: "Thank you for subscribing to my newsletter!"
+  translation: "Bedankt voor het abonneren op mijn nieuwsbrief!"
 
 - id: "newsletter_error_message"
   translation: "An error occurred. Please try again."
 
 - id: "newsletter_note"
-  translation: "We'll never share your email with anyone else."
+  translation: "Ik deel je email niet met derden."
 
 ## Homepage testimonials
 - id: "testimonials_title"
@@ -151,40 +144,40 @@
   translation: "Type Your Message Here"
 
 - id: "contact_phone_title"
-  translation: "Phone Number"
+  translation: "Telefoon nummer"
 
 - id: "contact_phone_number"
-  translation: "+555 (11) 123 44 55"
+  translation: "+31 (6) 173 475 45"
 
 - id: "contact_email_title"
   translation: "Email"
 
 - id: "contact_email_email"
-  translation: '<a href="mailto:mail@example.com">mail@example.com</a>'
+  translation: '<a href="mailto:vito@vipyr.nl">vito@vipyr.nl</a>'
 
 - id: "contact_address_title"
-  translation: "Address"
+  translation: "Kvk nummer"
 
 - id: "contact_address_address"
-  translation: "Exact street/neighborhood (you can omit this)<br />Postcode, City"
+  translation: "012010"
 
 - id: "contact_button"
-  translation: "Send Message"
+  translation: "Verzend bericht"
 
 ## Blog
 - id: "read_more"
-  translation: "Read more"
+  translation: "Lees meer"
 
 - id: "published_on"
-  translation: "Published on"
+  translation: "Gepubliceerd op"
 
 - id: "continue_reading"
-  translation: "Continue reading"
+  translation: "Blijf lezen"
 
 ## 404 Page
 - id: "404_title"
-  translation: "Page not found"
+  translation: "Pagina niet gevonden"
 - id: "404_description"  
-  translation: "Sorry, but the page you were looking for could not be found."
+  translation: "Sorry, maar de pagina die je zocht kon niet worden gevonden."
 - id: "404_button"
-  translation: "Back to homepage"
+  translation: "Terug naar de homepage"

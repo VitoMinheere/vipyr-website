@@ -20,17 +20,17 @@ showcase:
     - icon: "square-github"
       URL: "https://github.com/VitoMinheere"
 
-    - icon: "x-twitter"
-      URL: "#"
+    - icon: "user"
+      URL: "https://www.vitominheere.com"
 
     - icon: "youtube"
       URL: "https://www.youtube.com/@VipyrDev"
 
-    - icon: "instagram"
-      URL: "#"
+    # - icon: "instagram"
+    #   URL: "#"
 
-    - icon: "bluesky"
-      URL: "#"
+    # - icon: "bluesky"
+    #   URL: "#"
 
 # about
 about:
@@ -76,7 +76,7 @@ experience:
 
 # Client & Work
 client_and_work:
-  enable: true
+  enable: false
 
 # testimonial
 testimonial:
@@ -92,4 +92,4 @@ contact:
 
 # newsletter
 newsletter:
-  enable: true
+  enable: false
