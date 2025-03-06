@@ -5,7 +5,7 @@ title: "Data Engineer"
 jobTitle: "Data Engineer"
 company: "Sociale verzekeringsbank"
 location: "Amstelveen, Nederland"
-duration: "11-2023 04-2024"
+duration: "11-2022 04-2024"
 ---
 ### Data anonimisatie tool & COBOL vertalen naar Python
 

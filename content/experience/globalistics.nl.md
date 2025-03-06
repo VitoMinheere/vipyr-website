@@ -1,11 +1,11 @@
 ---
-date: 2022-08-01T00:00:00+01:00
+date: 2017-08-01T00:00:00+01:00
 draft: false
-title: "Backend Engineer"
-jobTitle: "Backend Engineer"
-company: "Heineken"
-location: "Leiden, Netherlands"
-duration: "04-2022 10-2022"
+title: "Data Engineer"
+jobTitle: "Data Engineer"
+company: "Globalistics"
+location: "Valencia, Spanje"
+duration: "09-2017 04-2018"
 
 ---
 ### Greenfield gRPC Data Mesh Project

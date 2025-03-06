@@ -1,11 +1,11 @@
 ---
-date: 2022-08-01T00:00:00+01:00
+date: 2021-12-01T00:00:00+01:00
 draft: false
 title: "Backend Engineer"
 jobTitle: "Backend Engineer"
 company: "Heineken"
 location: "Leiden, Netherlands"
-duration: "04-2022 10-2022"
+duration: "04-2021 12-2021"
 
 ---
 ### Greenfield gRPC Data Mesh Project

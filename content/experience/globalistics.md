@@ -1,16 +1,30 @@
 ---
-date: 2022-04-01T00:00:00+01:00
+date: 2017-04-01T00:00:00+01:00
 draft: false
 title: "Backend Engineer"
-jobTitle: "Backend Engineer"
-company: "T-Mobile"
-location: "Den Haag, Netherlands"
-duration: "04-2022 10-2022"
+jobTitle: "Data Engineer"
+company: "Globalistics"
+location: "Valencia, Spain"
+duration: "09-2017 04-2018"
 
 ---
-### Greenfield gRPC Data Mesh Project
+### Conducted Research on Container Transport Price Prediction
 
-Designed and implemented a robust gRPC API using Protocol Buffers to unify data streams from multiple sources.
-Mentored junior team members, conducted code reviews, and led technical meetings with remote teams for API integration.
-Championed architecture discussions to ensure scalability and performance optimization across projects.
-Mentored and guided junior developers, ensuring skill development and adherence to best practices.
+Led comprehensive research focused on predicting container transport prices using advanced machine learning techniques.
+Employed feature engineering to enhance model accuracy and performance, utilizing the scikit-learn library.
+Analyzed and interpreted complex datasets to identify key factors influencing transport costs, contributing to more precise and reliable predictions.
+Collaborated with cross-functional teams to integrate findings into business strategies, driving informed decision-making processes.
+
+**Architected a Data Pipeline for Seamless Integration**
+
+Designed and implemented a robust data pipeline to efficiently fetch and preprocess data from various REST APIs.
+Ensured data quality and consistency through meticulous preprocessing steps, including cleaning, normalization, and transformation.
+Optimized the pipeline for scalability and performance, enabling it to handle large volumes of data with minimal latency.
+Facilitated seamless integration of preprocessed data with machine learning models, enhancing the overall efficiency and accuracy of predictions.
+
+**Deployed Machine Learning Models via Django REST API**
+
+Successfully deployed machine learning models using a Django REST API, making predictive insights readily accessible to end-users.
+Developed user-friendly API endpoints that allowed for easy interaction with the models, enabling real-time data analysis and predictions.
+Implemented robust security measures to protect data integrity and ensure compliance with industry standards.
+Monitored and maintained the deployed models, performing regular updates and optimizations to enhance performance and accuracy.

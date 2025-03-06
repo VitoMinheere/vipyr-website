@@ -1,5 +1,5 @@
 +++
-title = 'Sample blog content 1'
+title = 'Microsoft Power Up Program Experience'
 date = 2024-06-21T14:38:33+02:00
 draft = false
 type = 'blog'
