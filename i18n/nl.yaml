@@ -156,10 +156,10 @@
   translation: '<a href="mailto:vito@vipyr.nl">vito@vipyr.nl</a>'
 
 - id: "contact_address_title"
-  translation: "Kvk nummer"
+  translation: "BTW nummer"
 
 - id: "contact_address_address"
-  translation: "012010"
+  translation: "NL004933074B83"
 
 - id: "contact_button"
   translation: "Verzend bericht"

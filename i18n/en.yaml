@@ -158,10 +158,10 @@
   translation: '<a href="mailto:vito@vipyr.nl">vito@vipyr.nl</a>'
 
 - id: "contact_address_title"
-  translation: ""
+  translation: "VAT Number"
 
 - id: "contact_address_address"
-  translation: ""
+  translation: "NL004933074B83"
 
 - id: "contact_button"
   translation: "Send Message"
