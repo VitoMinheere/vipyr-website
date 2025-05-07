@@ -4,10 +4,10 @@
 showcase:
   enable: true
   image:
-    x: "images/showcase/showcase.png"
-    _2x: "images/showcase/showcase@2x.png"
+    x: "images/about/logo.png"
+    _2x: "images/about/logo.png"
   imageMobile:
-    x: "images/showcase/showcase-mobile.jpg"
+    x: "images/about/logo.png"
 
   button:
     icon: "icon-email"
@@ -39,8 +39,8 @@ about:
     icon: "icon-user"
     URL: "https://www.linkedin.com/in/vitominheere/"
   image:
-    x: "images/about/Vito-1696.jpg"
-    _2x: "images/about/Vito-1696.jpg"
+    x: "images/about/profile.jpg"
+    _2x: "images/about/profile.jpg"
 
 # education
 education:
