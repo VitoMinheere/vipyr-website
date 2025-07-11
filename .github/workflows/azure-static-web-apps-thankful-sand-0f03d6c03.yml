@@ -3,11 +3,11 @@ name: Deploy to Develop Branch on Azure Static Web Apps
 on:
   push:
     branches:
-      - develop
+      - main
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
-      - develop
+      - main
 
 jobs:
   build_and_deploy_job:
@@ -28,7 +28,7 @@ jobs:
           hugo-version: '0.147.0'
           extended: true
       - name: Build Hugo site
-        run: hugo --minify --baseURL https://thankful-sand-0f03d6c03.6.azurestaticapps.net --destination public
+        run: hugo --minify --baseURL ${{ secrets.BASE_URL }} --destination public
         
       - name: Install OIDC Client from Core Package
         run: npm install @actions/core@1.6.0 @actions/http-client
