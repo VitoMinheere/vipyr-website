@@ -6,9 +6,9 @@ theme = "adritian-free-hugo-theme"
   title = 'Vipyr - by Vito Minheere'
   description = 'Vipyr business.'
   images = ['/img/og-img.png']
-  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter", "tools"]
 
-  homepageExperienceCount = 6
+  homepageExperienceCount = 3
 
   [params.analytics]
   ## Analytics parameters.
@@ -61,7 +61,7 @@ theme = "adritian-free-hugo-theme"
       
       [[languages.en.menus.header]]
         name = "Tools"
-        URL = "#tools"
+        URL = "/tools"
         weight = 4
 
       [[languages.en.menus.header]]
