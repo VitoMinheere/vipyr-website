@@ -1,0 +1,64 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #f8fafc;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+#setup, #practice, #done {
+  margin-top: 1.5rem;
+}
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+input[type="number"], input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button {
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 0.5rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+button:hover {
+  background: #1d4ed8;
+}
+#command-prompt {
+  font-family: monospace;
+  background: #f1f5f9;
+  padding: 0.7rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+#feedback {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  min-height: 1.5em;
+}
+#done h2 {
+  text-align: center;
+  color: #16a34a;
+} 
