@@ -9,7 +9,7 @@
     {{ partial "header.html" . }}
 
     <section
-      id="tools"
+      id="experience"
       class="section section--border-bottom rad-animation-group flex-grow-1"
     >
       <div class="container">
@@ -23,11 +23,13 @@
             {{ $xp = $xp | lang.Merge (where $baseLangSite.RegularPages.ByDate.Reverse "Type" "tools") }}   
             {{ range $xp }} 
 
-            <div class="tool {{ if eq .Page.File.UniqueID $currentPageID }} selected {{ end }}" >
+            <div class="experience {{ if eq .Page.File.UniqueID $currentPageID }} selected {{ end }}" >
               <a href="{{.Permalink}}">
                 {{/* The context, ".", is now each one of the pages as it goes
                 through the loop */}}
-                </div>
+                <div class="experience__date">{{ .Params.duration }}</div>
+                <div class="experience__title">{{ .Params.title }}</div>
+                <div class="experience__company">{{ .Params.language }}</div>
               </a>
             </div>
             {{ end }}
@@ -43,3 +45,4 @@
   </body>
 </html>
 <!-- endinject -->
+
