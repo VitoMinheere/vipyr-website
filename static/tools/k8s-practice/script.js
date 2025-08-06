@@ -38,7 +38,19 @@ const commands = [
   "kubectl create configmap myconfig --from-literal=env=prod",
   "kubectl get secrets -o json | jq .items[].data",
   "kubectl get auditpolicies -o yaml",
-  "kubectl explain pod.spec.securityContext"
+  "kubectl explain pod.spec.securityContext",
+
+   // Imperative commands
+  "kubectl create deployment nginx --image=nginx",
+  "kubectl create namespace dev",
+  "kubectl run testpod --image=nginx --restart=Never",
+  "kubectl expose pod testpod --port=80 --target-port=80 --name=test-service",
+  "kubectl create service clusterip myservice --tcp=5678:8080",
+  "kubectl autoscale deployment nginx --cpu-percent=70 --min=2 --max=5",
+  "kubectl set image deployment/nginx nginx=nginx:1.19.3",
+  "kubectl set resources deployment nginx --limits=cpu=200m,memory=512Mi",
+  "kubectl set env deployment nginx ENV=prod",
+  'kubectl run nginx --image=nginx --port=80 --labels="app=web,env=prod"'
 ];
 
 const totalCommands = commands.length;
