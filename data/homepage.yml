@@ -74,6 +74,10 @@ experience:
     ## the url and text are localized, fill them in the i18n file
     ## keys: experience_button2, experience_button_url2 
 
+# Tools
+tools:
+  enable: true
+
 # Client & Work
 client_and_work:
   enable: false

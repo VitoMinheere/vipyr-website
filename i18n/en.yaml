@@ -102,6 +102,13 @@
 - id: "experience_button3_url"
   translation: "/experience"
 
+## Homepage tools
+- id: "tools_title"
+  translation: "Tools"
+
+- id: "tools_description"
+  translation: "Small tools I built"
+
 ## Homepage client & work
 - id: "client_work_title"
   translation: "Clients & Work"
