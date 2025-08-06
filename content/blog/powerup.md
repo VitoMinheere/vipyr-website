@@ -5,10 +5,71 @@ draft = false
 type = 'blog'
 +++
 
-Sample blog content. Like a lorem ipsum but saying something more interesting.
+# I Completed the Microsoft Power Up Program! 🚀
 
-Welcome to the world of "Content Ipsum," the fresh alternative to the classic lorem ipsum. It's the perfect blend for designers and writers who crave a dash of creativity and meaning in their placeholder text. Imagine a text that not only fills the space but also sparks the imagination, a text that weaves tales of innovation, inspiration, and the endless possibilities that creativity brings.
+Over the past months, I took part in Microsoft’s **Power Up Program** a free, guided learning journey into the world of **low-code development using Power Platform**. The course is aimed at people with a technical background who want to upskill and explore what Microsoft’s Power Platform ecosystem has to offer.
 
-In the realm of "Content Ipsum," every paragraph is a journey through the wonders of the human mind, a celebration of the achievements that have shaped our world, and a look into the future that awaits us. From the depths of the ocean to the farthest reaches of the universe, "Content Ipsum" takes you on an adventure that captivates and informs.
+I'm happy to share that I **completed the course and passed the final challenge!**
 
-So, the next time you're crafting a design or drafting a document, let "Content Ipsum" infuse your work with the spirit of discovery and the joy of creation. It's more than just text; it's a narrative that connects, engages, and inspires. Welcome to the evolution of placeholder text – where every word is a story waiting to be told.
+To help others along the way, I created a series of **six YouTube videos** sharing my progress, impressions, and final project. You’ll find the full playlist linked below 👇
+
+---
+
+## 🎯 What the Course Covers
+
+The Power Up Program is structured around key parts of the Power Platform:
+
+1. **Dataverse & Data Modeling** – Learning how to structure your data and work with relationships.
+2. **Canvas Apps** – Building user interfaces using drag-and-drop, and wiring it all up with PowerFX.
+3. **Power Automate** – Creating flows for automation across apps and services.
+4. **Final Challenge** – A realistic business scenario where you design, build, and submit your own solution.
+
+Each module builds on the previous one, with hands-on labs and optional live Q&As.
+
+---
+
+## 🧠 What I Learned
+
+Some of my key takeaways:
+
+- **Dataverse** is more powerful than it looks — especially once you understand table relationships and lookup columns.
+- **Canvas Apps** can be very quick to prototype, but **PowerFX** has a learning curve, especially with its Excel-like syntax.
+- **Power Automate** is intuitive for simple flows, but needs patience when debugging or handling branching logic.
+- The **final challenge** gave me a chance to apply everything in a real-world scenario which was both the most valuable and most satisfying part of the course.
+
+---
+
+## 🎥 Watch the Journey on YouTube
+
+I documented each phase of the course, including my thoughts, issues I ran into, and a full walkthrough of my **final project submission**.
+
+📺 **Watch the full Power Up series here**:  
+👉 [YouTube Playlist – Power Up Course](https://www.youtube.com/playlist?list=PLUb-E8kfLofVKuCmzA3StkprNhUNP1QJn)
+
+Here’s a breakdown of the six videos:
+
+1. Week 1 – Dataverse & Data Modeling  
+2. Week 2 – Canvas Apps & PowerFX  
+3. Week 3 – Power Automate Basics  
+4. Midpoint Reflection – Tips & Struggles  
+5. Final Challenge Preparation  
+6. Final Submission – My App Walkthrough ✅
+
+---
+
+## 👨‍💻 Final Thoughts
+
+This course was a great introduction to the Power Platform. While I still prefer code-first approaches for most projects, I now have a much better understanding of how and when **low-code tools** like Power Apps and Power Automate can speed up delivery — especially for internal business tools.
+
+If you're curious about the Power Platform, or thinking about joining a future round of the Power Up Program, I highly recommend giving it a shot.
+
+---
+
+## 📢 Let's Connect
+
+Have questions about the course? Want to share your own experience or app submission? Feel free to reach out or leave a comment on any of the videos.
+
+🔗 [YouTube Channel](https://www.youtube.com/@VipyrDev)  
+💬 [LinkedIn](https://www.linkedin.com/in/vitominheere/)
+
+Thanks for following along!
