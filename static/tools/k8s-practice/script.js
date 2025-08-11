@@ -50,7 +50,34 @@ const commands = [
   "kubectl set image deployment/nginx nginx=nginx:1.19.3",
   "kubectl set resources deployment nginx --limits=cpu=200m,memory=512Mi",
   "kubectl set env deployment nginx ENV=prod",
-  'kubectl run nginx --image=nginx --port=80 --labels="app=web,env=prod"'
+  'kubectl run nginx --image=nginx --port=80 --labels="app=web,env=prod"',
+
+  // kubernetes file location
+  "ls -l /etc/kubernetes/manifests",
+  "cat /etc/kubernetes/manifests/kube-apiserver.yaml",
+  "cat /etc/kubernetes/manifests/kube-controller-manager.yaml",
+  "cat /etc/kubernetes/manifests/kube-scheduler.yaml",
+  "cat /etc/kubernetes/manifests/etcd.yaml",
+  "ls -l /etc/kubernetes/pki",
+  "cat /etc/kubernetes/pki/ca.crt",
+  "cat /etc/kubernetes/pki/ca.key",
+  "cat /etc/kubernetes/pki/apiserver.crt",
+  "cat /etc/kubernetes/pki/apiserver.key",
+  "cat /etc/kubernetes/pki/front-proxy-ca.crt",
+  "cat /etc/kubernetes/pki/front-proxy-ca.key",
+  "cat /etc/kubernetes/pki/etcd/ca.crt",
+  "cat /etc/kubernetes/pki/etcd/ca.key",
+  "cat /var/lib/kubelet/config.yaml",
+  "cat /etc/systemd/system/kubelet.service.d/10-kubeadm.conf",
+  "journalctl -u kubelet -f",
+  "ls -l /etc/kubernetes/audit-policy.yaml",
+  "cat /etc/kubernetes/audit-policy.yaml",
+  "ls -l /var/log/kubernetes/",
+  "grep -i 'authorization-mode' /etc/kubernetes/manifests/kube-apiserver.yaml",
+  "grep -i 'enable-admission-plugins' /etc/kubernetes/manifests/kube-apiserver.yaml",
+  "grep -i 'service-account-issuer' /etc/kubernetes/manifests/kube-apiserver.yaml",
+  "grep -i 'service-account-signing-key-file' /etc/kubernetes/manifests/kube-apiserver.yaml"
+
 ];
 
 const totalCommands = commands.length;
